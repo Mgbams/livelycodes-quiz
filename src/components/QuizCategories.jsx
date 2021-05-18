@@ -114,12 +114,12 @@ const QuizCategories = () => {
 
   console.log(categories);
   return (
-    <Container>
+    <Container className={classes.container}>
       <Paper className={classes.paper}>
         {currentQuizStep === "start" ? (
           <>
             <Typography variant="h1" className={classes.mainTitle}>
-              Get Questions:
+              LivelyCodes Questions:
             </Typography>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={4}>
@@ -180,7 +180,7 @@ const QuizCategories = () => {
                     id="quiz-number"
                     variant="outlined"
                     name="quiz-number"
-                    label={`Add a quiz number from 1 to 10`}
+                    label={`Choose number of questions from 1 to 10`}
                     value={quizNumber || ""}
                     onChange={handleChange}
                   />

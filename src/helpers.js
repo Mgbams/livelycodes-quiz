@@ -10,13 +10,14 @@ export const styles = {
   mainTitle: {
     fontSize: "45px",
     marginBottom: "20px",
+    color: "#490B3D",
   },
   submitButton: {
     marginTop: "20px",
     borderRadius: "999px",
-    background: "#9c27b0",
+    background: "#490B3D",
     "&:hover": {
-      backgroundColor: "#9c27b0",
+      backgroundColor: "#BD1E51",
       boxShadow:
         "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)",
     },
@@ -44,6 +45,9 @@ export const styles = {
     maxWidth: "150px",
     textAlign: "center",
     flexDirection: "column",
+  },
+  container: {
+    width: "60vw",
   },
 };
 
