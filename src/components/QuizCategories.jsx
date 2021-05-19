@@ -114,7 +114,7 @@ const QuizCategories = () => {
 
   console.log(categories);
   return (
-    <Container className={classes.container}>
+    <Container className="container">
       <Paper className={classes.paper}>
         {currentQuizStep === "start" ? (
           <>

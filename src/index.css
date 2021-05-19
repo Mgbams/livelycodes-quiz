@@ -14,6 +14,16 @@ code {
 
 @media screen and (max-width: 540px) {
   h1 {
-    font-size: 36px !important;
+    font-size: 36px;
+  }
+
+  .container {
+    width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .container {
+    width: 60vw !important;
   }
 }

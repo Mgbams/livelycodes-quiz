@@ -46,9 +46,6 @@ export const styles = {
     textAlign: "center",
     flexDirection: "column",
   },
-  container: {
-    width: "60vw",
-  },
 };
 
 export const difficulties = [
