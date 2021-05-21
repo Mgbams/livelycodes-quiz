@@ -173,14 +173,14 @@ const QuizCategories = () => {
                 </Grid>
                 <Grid item xs={12}>
                   <TextField
-                    inputProps={{ min: 1, max: 10 }}
+                    inputProps={{ min: 1, max: 20 }}
                     required
                     fullWidth
                     type="number"
                     id="quiz-number"
                     variant="outlined"
                     name="quiz-number"
-                    label={`Choose number of questions from 1 to 10`}
+                    label={`Choose question number from 1 to 20`}
                     value={quizNumber || ""}
                     onChange={handleChange}
                   />
